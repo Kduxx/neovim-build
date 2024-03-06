@@ -7,7 +7,7 @@ It's based on a simple Dockerfile for building Neovim from scratch, based on the
 
 ### Getting binary to the local machine
 ```shell
-docker run --rm "caduedu14/nvim-build " cat /nvim > nvim # This will copy the binary to your machine
+docker run --rm "caduedu14/neovim-build " cat /nvim > nvim # This will copy the binary to your machine
 chmod +x nvim # just give it execute permission
 ./nvim --version # Then test it
 ```
